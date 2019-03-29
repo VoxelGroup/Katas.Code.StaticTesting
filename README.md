@@ -2,7 +2,7 @@
 
 El ingeniero Alberto tenia una visión curiosa del patrón singleton. Para optimizar el uso de memoria de los aplicativos decidió implementar todas las clases de lógica de negocio con el modificador "static". Si bien a dia de hoy puede funcionar correctamente, dicho hecho nos impide testar unitariamente dicha lógica de negocio teniendo un código de baja calidad.
 
-## CARPETAS 
+## CARPETAS proyecto (Voxel.CodeKatas.StaticTesting)
 
 ### DAL
 
