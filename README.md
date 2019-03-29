@@ -25,5 +25,5 @@ Clases necesarias para la lógica de negocio.
 
 ## EXERCICIO
 
-Se debería refactorizar el código en la medida de lo posible para poder testear unitariamente toda la lógina de negocio.
+Se debería refactorizar el código en la medida de lo posible para poder testear unitariamente toda la lógina de negocio así como implementar los tests pertinentes.
 
