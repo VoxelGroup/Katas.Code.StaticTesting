@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-
-
-namespace Voxel.CodeKatas.StaticTesting
+﻿namespace Voxel.CodeKatas.StaticTesting
 {
     public static partial class PropertiesMappingBLL
     {
@@ -9,7 +6,7 @@ namespace Voxel.CodeKatas.StaticTesting
         {
             internal static void MapProperty(DatabaseTransaction trans, string propertyId, long bavelKey, bool Confident)
             {
-                using (DatabasePLCommand  cmd = new DatabasePLCommand(trans, "PB_PROPERTY_MAPPINGS", "Property_Map"))
+                using (DatabasePLCommand cmd = new DatabasePLCommand(trans, "PB_PROPERTY_MAPPINGS", "Property_Map"))
                 {
                     cmd.AddParameter("Property_Id", propertyId);
                     cmd.AddParameter("Bavel_Key", bavelKey);

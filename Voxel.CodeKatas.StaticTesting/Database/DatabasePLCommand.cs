@@ -4,15 +4,15 @@ namespace Voxel.CodeKatas.StaticTesting
 {
     public class DatabasePLCommand : IDisposable
     {
-        private DatabaseTransaction trans;
-        private object pB_PROPERTY_MAPPINGS;
-        private string v;
+        private DatabaseTransaction transaction;
+        private object package;
+        private string procedure;
 
-        public DatabasePLCommand(DatabaseTransaction trans, object pB_PROPERTY_MAPPINGS, string v)
+        public DatabasePLCommand(DatabaseTransaction transaction, object package, string procedure)
         {
-            this.trans = trans;
-            this.pB_PROPERTY_MAPPINGS = pB_PROPERTY_MAPPINGS;
-            this.v = v;
+            this.transaction = transaction;
+            this.package = package;
+            this.procedure = procedure;
         }
 
         public void Dispose()

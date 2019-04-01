@@ -1,7 +1,4 @@
 ﻿namespace Voxel.CodeKatas.StaticTesting
 {
-    public class DatabaseTransaction
-    {
-
-    }
+    public class DatabaseTransaction { }
 }
