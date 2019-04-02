@@ -1,4 +1,4 @@
-﻿namespace Voxel.CodeKatas.StaticTesting
+﻿namespace Katas.Code.StaticTesting
 {
     public static partial class PropertiesMappingBLL
     {

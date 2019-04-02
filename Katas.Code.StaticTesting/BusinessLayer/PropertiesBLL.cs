@@ -4,11 +4,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Voxel.CodeKatas.StaticTesting.Properties;
+using Katas.Code.StaticTesting.Properties;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace Voxel.CodeKatas.StaticTesting
+namespace Katas.Code.StaticTesting
 {
     public static partial class PropertiesBLL
     {

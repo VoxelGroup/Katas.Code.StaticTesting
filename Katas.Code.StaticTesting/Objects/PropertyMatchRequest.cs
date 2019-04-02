@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Voxel.CodeKatas.StaticTesting
+namespace Katas.Code.StaticTesting
 {
         /// <summary>
         /// Used to query data to property service

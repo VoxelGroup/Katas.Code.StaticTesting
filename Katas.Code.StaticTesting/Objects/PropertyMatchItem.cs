@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Voxel.CodeKatas.StaticTesting
+namespace Katas.Code.StaticTesting
 {
     [DataContract(Namespace = "http://services.voxelgroup.net/Properties", Name = "PropertyMatchItem")]
     public class PropertyMatchItem

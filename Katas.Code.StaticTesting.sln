@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voxel.CodeKatas.StaticTesting", "Voxel.CodeKatas.StaticTesting\Voxel.CodeKatas.StaticTesting.csproj", "{A036AEAE-DA9A-4193-A3CB-44272BFC2312}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Code.StaticTesting", "Katas.Code.StaticTesting\Katas.Code.StaticTesting.csproj", "{A036AEAE-DA9A-4193-A3CB-44272BFC2312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voxel.CodeKatas.StatisTesting.UnitTest", "Voxel.CodeKatas.StatisTesting.UnitTest\Voxel.CodeKatas.StatisTesting.UnitTest.csproj", "{49DCB0E4-6DA7-4768-82E4-E7F20FD39483}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Code.StaticTesting.UnitTests", "Katas.Code.StaticTesting.UnitTests\Katas.Code.StaticTesting.UnitTests.csproj", "{49DCB0E4-6DA7-4768-82E4-E7F20FD39483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
