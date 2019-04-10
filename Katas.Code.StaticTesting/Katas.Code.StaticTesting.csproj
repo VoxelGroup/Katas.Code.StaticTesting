@@ -45,8 +45,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLayer\AlienetBLL.cs" />
+    <Compile Include="BusinessLayer\EPaymentBookingGuestItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentBookingItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentBTGItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentCCardItem.cs" />
+    <Compile Include="BusinessLayer\EpaymentCreationTool.cs" />
+    <Compile Include="BusinessLayer\EPaymentDeliveryNoteItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentInvoiceItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentPurchaseOrderItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentRefType.cs" />
+    <Compile Include="BusinessLayer\EPaymentSelfDeliveryNoteItem.cs" />
+    <Compile Include="BusinessLayer\EPaymentsSyncBLL.cs" />
+    <Compile Include="BusinessLayer\EPaymentsSyncBLL.DAL.cs" />
+    <Compile Include="BusinessLayer\EPaymentStatus.cs" />
+    <Compile Include="BusinessLayer\EPaymentsVCardItem.cs" />
+    <Compile Include="BusinessLayer\EProcurementSupplierRolloutsBLL.cs" />
+    <Compile Include="BusinessLayer\FormOfPayment.cs" />
+    <Compile Include="BusinessLayer\IntegratedBLL.cs" />
+    <Compile Include="BusinessLayer\MailUrn.cs" />
     <Compile Include="BusinessLayer\PropertiesMappings.BLL.cs" />
     <Compile Include="BusinessLayer\PropertiesBLL.cs" />
+    <Compile Include="BusinessLayer\RolloutsBLL.cs" />
+    <Compile Include="BusinessLayer\ServiceSector.cs" />
+    <Compile Include="BusinessLayer\TravelSupplierRolloutsBLL.cs" />
+    <Compile Include="BusinessLayer\UsersBLL.cs" />
+    <Compile Include="BusinessLayer\VirtualCardScheme.cs" />
+    <Compile Include="BusinessLayer\VirtualCardType.cs" />
     <Compile Include="DAL\PropertiesMappings.BLL.DAL.cs" />
     <Compile Include="Database\DatabaseConnection.cs" />
     <Compile Include="Database\DatabasePLCommand.cs" />
@@ -61,6 +87,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Voxel\Users.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
