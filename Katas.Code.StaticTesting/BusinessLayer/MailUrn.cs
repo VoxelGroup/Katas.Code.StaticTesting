@@ -1,6 +1,6 @@
 ﻿namespace Voxel.BusinessLayer.Users.Registered.ePaymentsSync
 {
-    internal class MailUrn
+    public class MailUrn
     {
         private string supplierEmail;
 
