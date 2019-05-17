@@ -23,7 +23,7 @@ Clases dummy que simulan los distintos objetos de la base de datos (conexión, c
 Clases necesarias para la lógica de negocio.
 
 
-## EXERCICIO
+## EJERCICIO
 
 Se debería refactorizar el código utilizando principios SOLID para poder testear unitariamente toda la lógina de negocio así como implementar los tests pertinentes.
 
