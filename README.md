@@ -25,7 +25,7 @@ Clases necesarias para la lógica de negocio.
 
 ## EJERCICIO
 
-Se debería refactorizar el código utilizando principios SOLID para poder testear unitariamente toda la lógina de negocio así como implementar los tests pertinentes.
+Se debería refactorizar el código utilizando principios SOLID para poder testear unitariamente toda la lógica de negocio así como implementar los tests pertinentes.
 
 ## ¿Como entregar la solución?
 - Puedes de descargar/clonar la solución, implementarla offline y al finalizar, enviarla por email en un zip a people@voxelgroup.net.
